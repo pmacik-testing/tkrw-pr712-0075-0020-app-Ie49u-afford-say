@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wewn
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0020-tenant/tkrw-pr712-0075-0020-app/devfile-sample-wewn@sha256:8facecfa4dde62971610f917563300237d42e255e43499bd2c5f493777d6b2a7
         name: my-nodejs
         ports:
         - containerPort: 3001
